@@ -1,0 +1,492 @@
+{
+  "version": "0.4",
+  "title": "Site installation",
+  "type": "page",
+  "content": [
+    {
+      "id": "b2fb13b8",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section fl-page-hero"
+      },
+      "elements": [
+        {
+          "id": "313e116c",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "a3a8aef4",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><a href=\"http://127.0.0.1:9400/\">Home</a> <span aria-hidden=\"true\">/</span> CAPABILITY 04 / SITE INSTALLATION</p>",
+                "_css_classes": "fl-breadcrumb"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "563fe1a3",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row "
+              },
+              "elements": [
+                {
+                  "id": "02b8b933",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-page-intro"
+                  },
+                  "elements": [
+                    {
+                      "id": "a6e79e90",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "CAPABILITY 04 / SITE INSTALLATION",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "4334df77",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "From workshop.<br>To where it belongs.",
+                        "header_size": "h1"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "35fea517",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Coordinated delivery and installation connect the fabrication process with the realities of the site.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "48dbe1e6",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-page-stamp"
+                  },
+                  "elements": [
+                    {
+                      "id": "82c3d5a5",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>BUILT WITH INTENT.</p>",
+                        "_css_classes": "fl-stamp"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "6113180b",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section "
+      },
+      "elements": [
+        {
+          "id": "5b6491c7",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "bbbb86ea",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "http://127.0.0.1:9400/wp-content/uploads/2026/10/framework.jpg",
+                  "id": 11,
+                  "alt": "Site installation"
+                },
+                "image_size": "full",
+                "image_alt": "Site installation",
+                "_css_classes": "fl-detail-cover"
+              },
+              "elements": [],
+              "widgetType": "image"
+            },
+            {
+              "id": "65c78269",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row fl-split"
+              },
+              "elements": [
+                {
+                  "id": "3606448c",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col "
+                  },
+                  "elements": [
+                    {
+                      "id": "15153d49",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "THE SERVICE",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "e3c1128c",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Site installation",
+                        "header_size": "h2"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "ffd237d3",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>We discuss the site conditions early: access, lifting arrangements, interfaces with other trades, and the sequence of work. Project-specific safety responsibilities and engineering requirements must be agreed before installation.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "adc91f11",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col "
+                  },
+                  "elements": [
+                    {
+                      "id": "af9e6a51",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Typical scope",
+                        "header_size": "h3"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "622bae8a",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>↗ Installation scope and sequence planning</p>",
+                        "_css_classes": "fl-scope-item"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "76d3208b",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>↗ Delivery and access coordination</p>",
+                        "_css_classes": "fl-scope-item"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "58b44203",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>↗ Steelwork assembly and positioning</p>",
+                        "_css_classes": "fl-scope-item"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "7e0fdf69",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>↗ Handover review of the agreed work</p>",
+                        "_css_classes": "fl-scope-item"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "a7704d32",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Enquire about this service ↗",
+                        "link": {
+                          "url": "http://127.0.0.1:9400/contact/"
+                        },
+                        "size": "md",
+                        "_css_classes": "fl-button "
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "fe2f7368",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section fl-warm"
+      },
+      "elements": [
+        {
+          "id": "ba523f2f",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "0d82f0ac",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-col fl-intro"
+              },
+              "elements": [
+                {
+                  "id": "d9bc872b",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "BUILT AROUND YOUR REQUIREMENTS",
+                    "header_size": "div",
+                    "_css_classes": "fl-kicker"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "286176f8",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "A considered approach<br>to your scope.",
+                    "header_size": "h2"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "cd6910bd",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>The final solution depends on the project drawings, intended use, materials, finish, and site conditions. We clarify these details together.</p>"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "70ba5ef1",
+              "elType": "widget",
+              "settings": {
+                "text": "Back to all capabilities ↗",
+                "link": {
+                  "url": "http://127.0.0.1:9400/services/"
+                },
+                "size": "md",
+                "_css_classes": "fl-button fl-text-button"
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "ab8c605f",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section fl-cta"
+      },
+      "elements": [
+        {
+          "id": "68fe1e6b",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "d5d220a5",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row "
+              },
+              "elements": [
+                {
+                  "id": "63638a5f",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col "
+                  },
+                  "elements": [
+                    {
+                      "id": "8234a313",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "LET’S BUILD WHAT’S NEXT",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "ac9a45b7",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "A strong project starts<br>with a conversation.",
+                        "header_size": "h2"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "d8e9d5fa",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-cta-action"
+                  },
+                  "elements": [
+                    {
+                      "id": "6a4b407b",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Tell us what you need to make. We’ll help shape the next step.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "74980e01",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Start your project ↗",
+                        "link": {
+                          "url": "http://127.0.0.1:9400/contact/"
+                        },
+                        "size": "md",
+                        "_css_classes": "fl-button "
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

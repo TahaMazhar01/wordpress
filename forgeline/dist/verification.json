@@ -1,0 +1,517 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "h1": 1,
+      "description": true,
+      "phpWarnings": false,
+      "milliseconds": 3251
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "h1": 1,
+      "description": true,
+      "phpWarnings": false,
+      "milliseconds": 3178
+    },
+    {
+      "path": "/services/",
+      "status": 200,
+      "h1": 1,
+      "description": true,
+      "phpWarnings": false,
+      "milliseconds": 3414
+    },
+    {
+      "path": "/projects/",
+      "status": 200,
+      "h1": 1,
+      "description": true,
+      "phpWarnings": false,
+      "milliseconds": 3141
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "h1": 1,
+      "description": true,
+      "phpWarnings": false,
+      "milliseconds": 3188
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "h1": 1,
+      "description": true,
+      "phpWarnings": false,
+      "milliseconds": 3161
+    },
+    {
+      "path": "/services/structural-fabrication/",
+      "status": 200,
+      "h1": 1,
+      "description": true,
+      "phpWarnings": false,
+      "milliseconds": 3330
+    },
+    {
+      "path": "/services/welding-assembly/",
+      "status": 200,
+      "h1": 1,
+      "description": true,
+      "phpWarnings": false,
+      "milliseconds": 3530
+    },
+    {
+      "path": "/services/custom-metalwork/",
+      "status": 200,
+      "h1": 1,
+      "description": true,
+      "phpWarnings": false,
+      "milliseconds": 3357
+    },
+    {
+      "path": "/services/site-installation/",
+      "status": 200,
+      "h1": 1,
+      "description": true,
+      "phpWarnings": false,
+      "milliseconds": 3475
+    },
+    {
+      "path": "/projects/foundry-works/",
+      "status": 200,
+      "h1": 1,
+      "description": true,
+      "phpWarnings": false,
+      "milliseconds": 3272
+    },
+    {
+      "path": "/projects/lines-of-connection/",
+      "status": 200,
+      "h1": 1,
+      "description": true,
+      "phpWarnings": false,
+      "milliseconds": 3358
+    },
+    {
+      "path": "/projects/working-frame/",
+      "status": 200,
+      "h1": 1,
+      "description": true,
+      "phpWarnings": false,
+      "milliseconds": 3489
+    }
+  ],
+  "assets": [
+    {
+      "path": "/wp-content/themes/forgeline-steel/assets/mark.svg",
+      "status": 200,
+      "bytes": 230
+    },
+    {
+      "path": "/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css",
+      "status": 200,
+      "bytes": 59344
+    },
+    {
+      "path": "/wp-content/plugins/case-addons/assets/css/main.css",
+      "status": 200,
+      "bytes": 440
+    },
+    {
+      "path": "/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css",
+      "status": 200,
+      "bytes": 22305
+    },
+    {
+      "path": "/wp-content/plugins/elementor/assets/css/frontend.min.css",
+      "status": 200,
+      "bytes": 54666
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-16.css",
+      "status": 200,
+      "bytes": 1173
+    },
+    {
+      "path": "/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+      "status": 200,
+      "bytes": 214
+    },
+    {
+      "path": "/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+      "status": 200,
+      "bytes": 560
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-13.css",
+      "status": 200,
+      "bytes": 11855
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/base-desktop.css",
+      "status": 200,
+      "bytes": 3337
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/base-mobile.css",
+      "status": 200,
+      "bytes": 87
+    },
+    {
+      "path": "/wp-content/themes/hubsteel/assets/css/libs/magnific-popup.css",
+      "status": 200,
+      "bytes": 7110
+    },
+    {
+      "path": "/wp-content/themes/hubsteel/assets/css/twentytwenty.css",
+      "status": 200,
+      "bytes": 6123
+    },
+    {
+      "path": "/wp-content/themes/hubsteel/assets/css/libs/animate.min.css",
+      "status": 200,
+      "bytes": 79642
+    },
+    {
+      "path": "/wp-content/themes/hubsteel/assets/fonts/flaticon/css/flaticon.css",
+      "status": 200,
+      "bytes": 3604
+    },
+    {
+      "path": "/wp-content/themes/hubsteel/assets/css/caseicon.css",
+      "status": 200,
+      "bytes": 5432
+    },
+    {
+      "path": "/wp-content/themes/hubsteel/assets/css/grid.css",
+      "status": 200,
+      "bytes": 33954
+    },
+    {
+      "path": "/wp-content/themes/hubsteel/assets/css/style.css",
+      "status": 200,
+      "bytes": 1587036
+    },
+    {
+      "path": "/wp-content/themes/hubsteel/style.css",
+      "status": 200,
+      "bytes": 1119
+    },
+    {
+      "path": "/wp-content/themes/forgeline-steel/assets/forgeline.css",
+      "status": 200,
+      "bytes": 22967
+    },
+    {
+      "path": "/wp-includes/js/jquery/jquery.min.js",
+      "status": 200,
+      "bytes": 87553
+    },
+    {
+      "path": "/wp-includes/js/jquery/jquery-migrate.min.js",
+      "status": 200,
+      "bytes": 13577
+    },
+    {
+      "path": "/wp-content/plugins/case-addons/assets/js/libs/waypoints.min.js",
+      "status": 200,
+      "bytes": 12198
+    },
+    {
+      "path": "/wp-content/themes/forgeline-steel/assets/logo-dark.svg",
+      "status": 200,
+      "bytes": 471
+    },
+    {
+      "path": "/wp-content/uploads/2026/10/welding-hero.jpg",
+      "status": 200,
+      "bytes": 330950
+    },
+    {
+      "path": "/wp-content/uploads/2026/10/structure.jpg",
+      "status": 200,
+      "bytes": 235421
+    },
+    {
+      "path": "/wp-content/uploads/2026/10/workshop.jpg",
+      "status": 200,
+      "bytes": 178956
+    },
+    {
+      "path": "/wp-content/uploads/2026/10/fabrication.jpg",
+      "status": 200,
+      "bytes": 129540
+    },
+    {
+      "path": "/wp-content/uploads/2026/10/framework.jpg",
+      "status": 200,
+      "bytes": 174851
+    },
+    {
+      "path": "/wp-content/themes/forgeline-steel/assets/logo-light.svg",
+      "status": 200,
+      "bytes": 471
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-55.css",
+      "status": 200,
+      "bytes": 257
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-57.css",
+      "status": 200,
+      "bytes": 2697
+    },
+    {
+      "path": "/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css",
+      "status": 200,
+      "bytes": 10255
+    },
+    {
+      "path": "/wp-content/plugins/case-addons/assets/js/main.js",
+      "status": 200,
+      "bytes": 893
+    },
+    {
+      "path": "/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js",
+      "status": 200,
+      "bytes": 103
+    },
+    {
+      "path": "/wp-content/plugins/elementor/assets/js/frontend-modules.min.js",
+      "status": 200,
+      "bytes": 53086
+    },
+    {
+      "path": "/wp-includes/js/jquery/ui/core.min.js",
+      "status": 200,
+      "bytes": 18674
+    },
+    {
+      "path": "/wp-content/plugins/elementor/assets/js/frontend.min.js",
+      "status": 200,
+      "bytes": 60022
+    },
+    {
+      "path": "/wp-content/themes/hubsteel/elements/widgets/js/elementor.js",
+      "status": 200,
+      "bytes": 24748
+    },
+    {
+      "path": "/wp-content/themes/hubsteel/assets/js/libs/three.min.js",
+      "status": 200,
+      "bytes": 53430
+    },
+    {
+      "path": "/wp-content/themes/hubsteel/assets/js/libs/importmap.js",
+      "status": 200,
+      "bytes": 333
+    },
+    {
+      "path": "/wp-content/themes/hubsteel/elements/widgets/js/blog-globe.js",
+      "status": 200,
+      "bytes": 12093
+    },
+    {
+      "path": "/wp-content/themes/hubsteel/assets/js/libs/magnific-popup.min.js",
+      "status": 200,
+      "bytes": 20244
+    },
+    {
+      "path": "/wp-content/themes/forgeline-steel/assets/forgeline.js",
+      "status": 200,
+      "bytes": 2534
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-19.css",
+      "status": 200,
+      "bytes": 6972
+    },
+    {
+      "path": "/wp-content/uploads/2026/10/craft.jpg",
+      "status": 200,
+      "bytes": 149158
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-22.css",
+      "status": 200,
+      "bytes": 6972
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-25.css",
+      "status": 200,
+      "bytes": 5173
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-28.css",
+      "status": 200,
+      "bytes": 4402
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-52.css",
+      "status": 200,
+      "bytes": 1832
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-31.css",
+      "status": 200,
+      "bytes": 4659
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-34.css",
+      "status": 200,
+      "bytes": 4659
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-37.css",
+      "status": 200,
+      "bytes": 4659
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-40.css",
+      "status": 200,
+      "bytes": 4659
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-43.css",
+      "status": 200,
+      "bytes": 3888
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-46.css",
+      "status": 200,
+      "bytes": 3888
+    },
+    {
+      "path": "/wp-content/uploads/elementor/css/post-49.css",
+      "status": 200,
+      "bytes": 3888
+    }
+  ],
+  "forms": [
+    {
+      "test": "Invalid nonce rejected",
+      "status": 303,
+      "location": "http://127.0.0.1:9400/contact/?enquiry=expired#project-enquiry"
+    },
+    {
+      "test": "Invalid fields rejected",
+      "status": 303,
+      "location": "http://127.0.0.1:9400/contact/?enquiry=invalid#project-enquiry"
+    },
+    {
+      "test": "Valid enquiry saved locally",
+      "status": 303,
+      "location": "http://127.0.0.1:9400/contact/?enquiry=saved#project-enquiry"
+    },
+    {
+      "test": "Immediate repeat is rate limited",
+      "status": 303,
+      "location": "http://127.0.0.1:9400/contact/?enquiry=rate#project-enquiry"
+    }
+  ],
+  "errors": [],
+  "notFound": 404,
+  "database": {
+    "saved_test_enquiries": 1,
+    "documents": {
+      "home": {
+        "id": 13,
+        "builder": "builder",
+        "roots": 7
+      },
+      "about": {
+        "id": 19,
+        "builder": "builder",
+        "roots": 5
+      },
+      "services": {
+        "id": 22,
+        "builder": "builder",
+        "roots": 4
+      },
+      "projects": {
+        "id": 25,
+        "builder": "builder",
+        "roots": 3
+      },
+      "contact": {
+        "id": 28,
+        "builder": "builder",
+        "roots": 3
+      },
+      "structural-fabrication": {
+        "id": 31,
+        "builder": "builder",
+        "roots": 4
+      },
+      "welding-assembly": {
+        "id": 34,
+        "builder": "builder",
+        "roots": 4
+      },
+      "custom-metalwork": {
+        "id": 37,
+        "builder": "builder",
+        "roots": 4
+      },
+      "site-installation": {
+        "id": 40,
+        "builder": "builder",
+        "roots": 4
+      },
+      "foundry-works": {
+        "id": 43,
+        "builder": "builder",
+        "roots": 3
+      },
+      "lines-of-connection": {
+        "id": 46,
+        "builder": "builder",
+        "roots": 3
+      },
+      "working-frame": {
+        "id": 49,
+        "builder": "builder",
+        "roots": 3
+      },
+      "privacy": {
+        "id": 52,
+        "builder": "builder",
+        "roots": 2
+      },
+      "template-header": {
+        "id": 55,
+        "builder": "builder",
+        "roots": 1
+      },
+      "template-footer": {
+        "id": 57,
+        "builder": "builder",
+        "roots": 1
+      },
+      "template-service-card": {
+        "id": 59,
+        "builder": "builder",
+        "roots": 1
+      },
+      "template-project-card": {
+        "id": 61,
+        "builder": "builder",
+        "roots": 1
+      },
+      "template-project-cta": {
+        "id": 63,
+        "builder": "builder",
+        "roots": 1
+      }
+    },
+    "recipient_empty": true,
+    "enquiry_public": false,
+    "enquiry_edit_cap": "manage_options"
+  }
+}

@@ -1,0 +1,783 @@
+{
+  "version": "0.4",
+  "title": "Services & Products",
+  "type": "page",
+  "content": [
+    {
+      "id": "04874f61",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section fl-page-hero"
+      },
+      "elements": [
+        {
+          "id": "33f104d4",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "84afa13e",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><a href=\"http://127.0.0.1:9400/\">Home</a> <span aria-hidden=\"true\">/</span> SERVICES & CAPABILITIES</p>",
+                "_css_classes": "fl-breadcrumb"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "4b1fc435",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row "
+              },
+              "elements": [
+                {
+                  "id": "4da12908",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-page-intro"
+                  },
+                  "elements": [
+                    {
+                      "id": "0e5321a6",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "SERVICES & CAPABILITIES",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "68febec2",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "One material.<br>Many possibilities.",
+                        "header_size": "h1"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "e306560e",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>From structural frames to carefully finished details, explore a connected approach to steelwork.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "3dccc9a7",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-page-stamp"
+                  },
+                  "elements": [
+                    {
+                      "id": "93af0364",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>BUILT WITH INTENT.</p>",
+                        "_css_classes": "fl-stamp"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "96528496",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section "
+      },
+      "elements": [
+        {
+          "id": "0ac0cb2f",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "2ca15763",
+              "elType": "widget",
+              "settings": {
+                "title": "From structure to the finishing detail.",
+                "header_size": "h2"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "2bea8ac2",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row fl-two-grid"
+              },
+              "elements": [
+                {
+                  "id": "d026cee2",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-service-card fl-reveal"
+                  },
+                  "elements": [
+                    {
+                      "id": "86357323",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "http://127.0.0.1:9400/wp-content/uploads/2026/10/structure.jpg",
+                          "id": 10,
+                          "alt": "Structural fabrication"
+                        },
+                        "image_size": "full",
+                        "image_alt": "Structural fabrication"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    },
+                    {
+                      "id": "295494d5",
+                      "elType": "container",
+                      "settings": {
+                        "container_type": "flex",
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "css_classes": "fl-card-content"
+                      },
+                      "elements": [
+                        {
+                          "id": "c56e9ab5",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "CAPABILITY / 01",
+                            "header_size": "div",
+                            "_css_classes": "fl-kicker"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "53544ce0",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "Structural fabrication",
+                            "header_size": "h3"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "85e7e901",
+                          "elType": "widget",
+                          "settings": {
+                            "editor": "<p>Beams, columns, frames, and connections made around your project requirements.</p>"
+                          },
+                          "elements": [],
+                          "widgetType": "text-editor"
+                        },
+                        {
+                          "id": "47baecab",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "Explore service ↗",
+                            "link": {
+                              "url": "http://127.0.0.1:9400/services/structural-fabrication/"
+                            },
+                            "size": "md",
+                            "_css_classes": "fl-button fl-text-button"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        }
+                      ],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "7097a578",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-service-card fl-reveal"
+                  },
+                  "elements": [
+                    {
+                      "id": "aa8bc022",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "http://127.0.0.1:9400/wp-content/uploads/2026/10/workshop.jpg",
+                          "id": 7,
+                          "alt": "Welding & assembly"
+                        },
+                        "image_size": "full",
+                        "image_alt": "Welding & assembly"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    },
+                    {
+                      "id": "18c51d22",
+                      "elType": "container",
+                      "settings": {
+                        "container_type": "flex",
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "css_classes": "fl-card-content"
+                      },
+                      "elements": [
+                        {
+                          "id": "9e1b6c54",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "CAPABILITY / 02",
+                            "header_size": "div",
+                            "_css_classes": "fl-kicker"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "95802214",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "Welding & assembly",
+                            "header_size": "h3"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "66c07887",
+                          "elType": "widget",
+                          "settings": {
+                            "editor": "<p>Careful preparation. Controlled welding. Components that come together as intended.</p>"
+                          },
+                          "elements": [],
+                          "widgetType": "text-editor"
+                        },
+                        {
+                          "id": "66121756",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "Explore service ↗",
+                            "link": {
+                              "url": "http://127.0.0.1:9400/services/welding-assembly/"
+                            },
+                            "size": "md",
+                            "_css_classes": "fl-button fl-text-button"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        }
+                      ],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "336a96c2",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row fl-two-grid"
+              },
+              "elements": [
+                {
+                  "id": "186e0a9b",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-service-card fl-reveal"
+                  },
+                  "elements": [
+                    {
+                      "id": "06d5a8ff",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "http://127.0.0.1:9400/wp-content/uploads/2026/10/fabrication.jpg",
+                          "id": 8,
+                          "alt": "Custom metalwork"
+                        },
+                        "image_size": "full",
+                        "image_alt": "Custom metalwork"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    },
+                    {
+                      "id": "da99e266",
+                      "elType": "container",
+                      "settings": {
+                        "container_type": "flex",
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "css_classes": "fl-card-content"
+                      },
+                      "elements": [
+                        {
+                          "id": "a1f63809",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "CAPABILITY / 03",
+                            "header_size": "div",
+                            "_css_classes": "fl-kicker"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "5f5ddf6a",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "Custom metalwork",
+                            "header_size": "h3"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "0801d6da",
+                          "elType": "widget",
+                          "settings": {
+                            "editor": "<p>Purpose-made stairs, railings, screens, and details with a considered finish.</p>"
+                          },
+                          "elements": [],
+                          "widgetType": "text-editor"
+                        },
+                        {
+                          "id": "989de05c",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "Explore service ↗",
+                            "link": {
+                              "url": "http://127.0.0.1:9400/services/custom-metalwork/"
+                            },
+                            "size": "md",
+                            "_css_classes": "fl-button fl-text-button"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        }
+                      ],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "9f494dfa",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-service-card fl-reveal"
+                  },
+                  "elements": [
+                    {
+                      "id": "9d3bf7b7",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "http://127.0.0.1:9400/wp-content/uploads/2026/10/framework.jpg",
+                          "id": 11,
+                          "alt": "Site installation"
+                        },
+                        "image_size": "full",
+                        "image_alt": "Site installation"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    },
+                    {
+                      "id": "613ce7b6",
+                      "elType": "container",
+                      "settings": {
+                        "container_type": "flex",
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "css_classes": "fl-card-content"
+                      },
+                      "elements": [
+                        {
+                          "id": "ee809767",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "CAPABILITY / 04",
+                            "header_size": "div",
+                            "_css_classes": "fl-kicker"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "79e1e1e8",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "Site installation",
+                            "header_size": "h3"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "2f15941c",
+                          "elType": "widget",
+                          "settings": {
+                            "editor": "<p>Practical planning and coordinated installation, from delivery through final checks.</p>"
+                          },
+                          "elements": [],
+                          "widgetType": "text-editor"
+                        },
+                        {
+                          "id": "cc308021",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "Explore service ↗",
+                            "link": {
+                              "url": "http://127.0.0.1:9400/services/site-installation/"
+                            },
+                            "size": "md",
+                            "_css_classes": "fl-button fl-text-button"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        }
+                      ],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "b26f03bd",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section fl-warm"
+      },
+      "elements": [
+        {
+          "id": "85b9ac8b",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "c991bce0",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row fl-split"
+              },
+              "elements": [
+                {
+                  "id": "9dfd28c2",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-intro"
+                  },
+                  "elements": [
+                    {
+                      "id": "a7341160",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "A CLEARER START",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "afa48b39",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Bring the idea.<br>We’ll talk through the details.",
+                        "header_size": "h2"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "7781ff92",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>A useful brief helps everyone make better decisions.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "bbb1a9a9",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col "
+                  },
+                  "elements": [
+                    {
+                      "id": "0b875de9",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "What to include",
+                        "header_size": "h3"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "df0fe360",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Drawings or sketches, intended use, approximate dimensions, material or finish preferences, quantities, site conditions, and your preferred timeline.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "38d69d21",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "What happens next",
+                        "header_size": "h3"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "40b2e756",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>We review the scope, identify any missing information, and discuss the practical next step before a proposal is prepared.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "4763cf60",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Discuss your project ↗",
+                        "link": {
+                          "url": "http://127.0.0.1:9400/contact/"
+                        },
+                        "size": "md",
+                        "_css_classes": "fl-button "
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "98cccdd9",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section fl-cta"
+      },
+      "elements": [
+        {
+          "id": "8ef6c493",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "ef5d979b",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row "
+              },
+              "elements": [
+                {
+                  "id": "14353366",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col "
+                  },
+                  "elements": [
+                    {
+                      "id": "1ad15aab",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "LET’S BUILD WHAT’S NEXT",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "5ff60a04",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "A strong project starts<br>with a conversation.",
+                        "header_size": "h2"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "b0e7f088",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-cta-action"
+                  },
+                  "elements": [
+                    {
+                      "id": "b4110293",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Tell us what you need to make. We’ll help shape the next step.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "7e5ebe3c",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Start your project ↗",
+                        "link": {
+                          "url": "http://127.0.0.1:9400/contact/"
+                        },
+                        "size": "md",
+                        "_css_classes": "fl-button "
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

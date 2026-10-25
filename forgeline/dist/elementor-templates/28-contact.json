@@ -1,0 +1,489 @@
+{
+  "version": "0.4",
+  "title": "Contact Us",
+  "type": "page",
+  "content": [
+    {
+      "id": "d50db166",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section fl-page-hero"
+      },
+      "elements": [
+        {
+          "id": "8a77cbc4",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "220e45dd",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><a href=\"http://127.0.0.1:9400/\">Home</a> <span aria-hidden=\"true\">/</span> CONTACT US</p>",
+                "_css_classes": "fl-breadcrumb"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "f6c21818",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row "
+              },
+              "elements": [
+                {
+                  "id": "c09d8278",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-page-intro"
+                  },
+                  "elements": [
+                    {
+                      "id": "c86c61f6",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "CONTACT US",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "b1a495c3",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Let’s make<br>something strong.",
+                        "header_size": "h1"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "e77d4dc4",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Tell us what you’re planning. Start with the essentials and we’ll take it from there.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "638595c0",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-page-stamp"
+                  },
+                  "elements": [
+                    {
+                      "id": "7d958307",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>BUILT WITH INTENT.</p>",
+                        "_css_classes": "fl-stamp"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "6a1bfdd3",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section "
+      },
+      "elements": [
+        {
+          "id": "2eab2d44",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "67d4c80f",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row fl-split"
+              },
+              "elements": [
+                {
+                  "id": "381c2fb2",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-contact-info"
+                  },
+                  "elements": [
+                    {
+                      "id": "d3464d9c",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "START THE CONVERSATION",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "ba65c9fd",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Your next project<br>starts here.",
+                        "header_size": "h2"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "1faed76e",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Share your idea, your requirements, or a question about our capabilities.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "ebe337e2",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Email",
+                        "header_size": "h3"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "62f2c45b",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><a href=\"mailto:hello@forgelinesteel.example\">hello@forgelinesteel.example</a></p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "9dd6bb67",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Project enquiries",
+                        "header_size": "h3"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "c65bc7a8",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Monday–Friday · 9:00–17:00 PKT<br> Meetings and site visits by arrangement.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "053348aa",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Demonstration contact details. This coursework business has no public office or live mailbox. Use the form to test the local enquiry workflow.</p>",
+                        "_css_classes": "fl-caption"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "32b01709",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-form-panel"
+                  },
+                  "elements": [
+                    {
+                      "id": "63dbb2ea",
+                      "elType": "widget",
+                      "settings": {
+                        "form_title": "Tell us about your project",
+                        "submit_text": "Send project enquiry ↗"
+                      },
+                      "elements": [],
+                      "widgetType": "forgeline-enquiry"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "19a2c794",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section fl-warm"
+      },
+      "elements": [
+        {
+          "id": "840e790f",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "2e05b126",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-col fl-intro"
+              },
+              "elements": [
+                {
+                  "id": "f2519966",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "BEFORE YOU GET IN TOUCH",
+                    "header_size": "div",
+                    "_css_classes": "fl-kicker"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "9da5e152",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "A few useful answers.",
+                    "header_size": "h2"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "4a471194",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>Helpful information for planning your enquiry.</p>"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "a4b7d416",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row fl-three-grid"
+              },
+              "elements": [
+                {
+                  "id": "75771b9d",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-step"
+                  },
+                  "elements": [
+                    {
+                      "id": "6278397c",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "01",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "76d0bf06",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Do I need finished drawings?",
+                        "header_size": "h3"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "e3785d0d",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>No. A sketch or an outline is a useful starting point. The scope can be clarified before fabrication is planned.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "6f194068",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-step"
+                  },
+                  "elements": [
+                    {
+                      "id": "eb2dd0d5",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "02",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "a0592c33",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Can you help with installation?",
+                        "header_size": "h3"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "c06b44a4",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Installation is included in the proposed service offering. Requirements and responsibilities would be agreed for each project.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "a93c1dd5",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-step"
+                  },
+                  "elements": [
+                    {
+                      "id": "fede7360",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "03",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "833a10aa",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "What should my brief include?",
+                        "header_size": "h3"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "24b49876",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Tell us the intended use, approximate dimensions, quantity, finish, site conditions, and your target timeline.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

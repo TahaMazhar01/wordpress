@@ -1,0 +1,259 @@
+{
+  "version": "0.4",
+  "title": "ForgeLine / Site Footer",
+  "type": "section",
+  "content": [
+    {
+      "id": "025da2a7",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section fl-footer-section"
+      },
+      "elements": [
+        {
+          "id": "483efdb0",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "d8c31b04",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row fl-footer-grid"
+              },
+              "elements": [
+                {
+                  "id": "3415bf65",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-footer-brand"
+                  },
+                  "elements": [
+                    {
+                      "id": "2c6b9588",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "http://127.0.0.1:9400/wp-content/themes/forgeline-steel/assets/logo-light.svg",
+                          "id": 0,
+                          "alt": "ForgeLine Steel"
+                        },
+                        "_css_classes": "fl-logo"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    },
+                    {
+                      "id": "b3f50d37",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Structure. Craft. Connection.<br> Steel solutions shaped around your ambition.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "77168f91",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col "
+                  },
+                  "elements": [
+                    {
+                      "id": "f600ee04",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Explore",
+                        "header_size": "h3"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "907fd72e",
+                      "elType": "widget",
+                      "settings": {
+                        "icon_list": [
+                          {
+                            "_id": "98d84081",
+                            "text": "Home",
+                            "selected_icon": {
+                              "value": "",
+                              "library": ""
+                            },
+                            "link": {
+                              "url": "http://127.0.0.1:9400/"
+                            }
+                          },
+                          {
+                            "_id": "d7c23d8d",
+                            "text": "About us",
+                            "selected_icon": {
+                              "value": "",
+                              "library": ""
+                            },
+                            "link": {
+                              "url": "http://127.0.0.1:9400/about/"
+                            }
+                          },
+                          {
+                            "_id": "c7bf8b9a",
+                            "text": "Capabilities",
+                            "selected_icon": {
+                              "value": "",
+                              "library": ""
+                            },
+                            "link": {
+                              "url": "http://127.0.0.1:9400/services/"
+                            }
+                          },
+                          {
+                            "_id": "9eaee3d8",
+                            "text": "Projects",
+                            "selected_icon": {
+                              "value": "",
+                              "library": ""
+                            },
+                            "link": {
+                              "url": "http://127.0.0.1:9400/projects/"
+                            }
+                          }
+                        ],
+                        "_css_classes": "fl-links"
+                      },
+                      "elements": [],
+                      "widgetType": "icon-list"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "5b139e17",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col "
+                  },
+                  "elements": [
+                    {
+                      "id": "1fa21780",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Build with us",
+                        "header_size": "h3"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "b4fce323",
+                      "elType": "widget",
+                      "settings": {
+                        "icon_list": [
+                          {
+                            "_id": "ebaa5725",
+                            "text": "Start a project ↗",
+                            "selected_icon": {
+                              "value": "",
+                              "library": ""
+                            },
+                            "link": {
+                              "url": "http://127.0.0.1:9400/contact/"
+                            }
+                          },
+                          {
+                            "_id": "918823e5",
+                            "text": "Privacy & image credits",
+                            "selected_icon": {
+                              "value": "",
+                              "library": ""
+                            },
+                            "link": {
+                              "url": "http://127.0.0.1:9400/privacy/"
+                            }
+                          }
+                        ],
+                        "_css_classes": "fl-links"
+                      },
+                      "elements": [],
+                      "widgetType": "icon-list"
+                    },
+                    {
+                      "id": "0e36d86b",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>hello@forgelinesteel.example<br> Mon–Fri · 9:00–17:00 PKT</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "fedc889e",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row fl-footer-bottom"
+              },
+              "elements": [
+                {
+                  "id": "2a90d025",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>© 2026 ForgeLine Steel. A fictional coursework business.</p>",
+                    "_css_classes": "fl-copyright"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "ef6f6314",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>BUILT ON PRECISION. FORGED TO LAST.</p>",
+                    "_css_classes": "fl-footer-motto"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": []
+}

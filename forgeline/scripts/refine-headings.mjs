@@ -1,0 +1,4 @@
+import {phpJob} from './local-runtime.mjs';
+console.log((await phpJob(`<?php require '/wordpress/wp-load.php';wp_set_current_user(1);
+foreach(['services'=>'From structure to the finishing detail.','projects'=>'Explore the concept portfolio.'] as $slug=>$title){$post=get_page_by_path($slug);$data=json_decode(get_post_meta($post->ID,'_elementor_data',true),true);$children=&$data[1]['elements'][0]['elements'];if(($children[0]['widgetType']??'')!=='heading')array_unshift($children,['id'=>substr(md5($slug.'-section-heading'),0,8),'elType'=>'widget','widgetType'=>'heading','settings'=>['title'=>$title,'header_size'=>'h2'],'elements'=>[]]);\\Elementor\\Plugin::$instance->documents->get($post->ID)->save(['elements'=>$data]);}
+wp_mkdir_p(wp_upload_dir()['basedir'].'/elementor/css');echo 'Service and project heading hierarchy updated.';`,'headings')).text);

@@ -1,0 +1,63 @@
+{
+  "version": "0.4",
+  "title": "ForgeLine / Site Header",
+  "type": "section",
+  "content": [
+    {
+      "id": "a84c5198",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-wrap fl-header-inner"
+      },
+      "elements": [
+        {
+          "id": "b2a635e1",
+          "elType": "widget",
+          "settings": {
+            "image": {
+              "url": "http://127.0.0.1:9400/wp-content/themes/forgeline-steel/assets/logo-dark.svg",
+              "id": 0,
+              "alt": "ForgeLine Steel"
+            },
+            "link_to": "custom",
+            "link": {
+              "url": "http://127.0.0.1:9400/"
+            },
+            "_css_classes": "fl-logo"
+          },
+          "elements": [],
+          "widgetType": "image"
+        },
+        {
+          "id": "c89b14b4",
+          "elType": "widget",
+          "settings": {
+            "shortcode": "[forgeline_navigation]",
+            "_css_classes": "fl-nav-widget"
+          },
+          "elements": [],
+          "widgetType": "shortcode"
+        },
+        {
+          "id": "ca5845d4",
+          "elType": "widget",
+          "settings": {
+            "text": "Let’s talk ↗",
+            "link": {
+              "url": "http://127.0.0.1:9400/contact/"
+            },
+            "size": "md",
+            "_css_classes": "fl-button fl-header-cta"
+          },
+          "elements": [],
+          "widgetType": "button"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": []
+}

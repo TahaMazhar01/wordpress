@@ -1,0 +1,15 @@
+import {directoryEntries,zipFiles} from './zip-fast.mjs';
+import {readFile,writeFile} from 'node:fs/promises';
+import path from 'node:path';
+import {root} from './local-runtime.mjs';
+const entries=[];
+for(const folder of ['theme','plugin','scripts','docs','assets','vendor'])entries.push(...await directoryEntries(path.join(root,folder),'ForgeLine-Steel/'+folder));
+for(const file of ['README.md','package.json','package-lock.json'])entries.push({name:'ForgeLine-Steel/'+file,file:path.join(root,file)});
+entries.push({name:'ForgeLine-Steel/runtime/LOCAL-ACCESS.txt',file:path.join(root,'runtime/LOCAL-ACCESS.txt')});
+entries.push({name:'ForgeLine-Steel/original-package/hubsteel.zip',file:path.join(root,'../Hubsteel_FullPackage/Theme Install/hubsteel.zip')});
+entries.push({name:'ForgeLine-Steel/original-package/case-addons.zip',file:path.join(root,'../Hubsteel_FullPackage/Plugins/case-addons.zip')});
+for(const folder of ['Licensing','Licenses'])entries.push(...await directoryEntries(path.join(root,'../Hubsteel_FullPackage',folder),'ForgeLine-Steel/original-package/'+folder));
+entries.push(...await directoryEntries(path.join(root,'dist'),'ForgeLine-Steel/dist',name=>name==='forgeline-steel-handover.zip'));
+const bytes=await zipFiles(entries);
+await writeFile(path.join(root,'dist/forgeline-steel-handover.zip'),bytes);
+console.log('Packaged '+entries.length+' files: '+Math.round(bytes.length/1024/1024)+' MiB.');

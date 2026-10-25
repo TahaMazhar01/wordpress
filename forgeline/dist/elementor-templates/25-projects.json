@@ -1,0 +1,627 @@
+{
+  "version": "0.4",
+  "title": "Projects",
+  "type": "page",
+  "content": [
+    {
+      "id": "4ecc6ea6",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section fl-page-hero"
+      },
+      "elements": [
+        {
+          "id": "6cb268ad",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "b8b668da",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><a href=\"http://127.0.0.1:9400/\">Home</a> <span aria-hidden=\"true\">/</span> PROJECTS</p>",
+                "_css_classes": "fl-breadcrumb"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "4c9a806f",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row "
+              },
+              "elements": [
+                {
+                  "id": "6980d3e1",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-page-intro"
+                  },
+                  "elements": [
+                    {
+                      "id": "864f24f0",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "PROJECTS",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "43428dc3",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Ideas made tangible.",
+                        "header_size": "h1"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "a21255ce",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>A concept portfolio exploring structure, architectural detail, and practical fabrication.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "9a21f965",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-page-stamp"
+                  },
+                  "elements": [
+                    {
+                      "id": "34a15f1f",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>BUILT WITH INTENT.</p>",
+                        "_css_classes": "fl-stamp"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "08923c03",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section "
+      },
+      "elements": [
+        {
+          "id": "a13bf8b1",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "f937f165",
+              "elType": "widget",
+              "settings": {
+                "title": "Explore the concept portfolio.",
+                "header_size": "h2"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "3498c6a0",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>ILLUSTRATIVE PROJECT STUDIES — FICTIONAL COURSEWORK PORTFOLIO</p>",
+                "_css_classes": "fl-project-notice"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "b5d32872",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row fl-filters"
+              },
+              "elements": [
+                {
+                  "id": "5fd1e850",
+                  "elType": "widget",
+                  "settings": {
+                    "text": "All projects",
+                    "link": {
+                      "url": "http://127.0.0.1:9400/projects/#all"
+                    },
+                    "size": "md",
+                    "_css_classes": "fl-button fl-filter is-active"
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                },
+                {
+                  "id": "8dc95984",
+                  "elType": "widget",
+                  "settings": {
+                    "text": "Structural",
+                    "link": {
+                      "url": "http://127.0.0.1:9400/projects/#structural"
+                    },
+                    "size": "md",
+                    "_css_classes": "fl-button fl-filter"
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                },
+                {
+                  "id": "45286140",
+                  "elType": "widget",
+                  "settings": {
+                    "text": "Architectural",
+                    "link": {
+                      "url": "http://127.0.0.1:9400/projects/#architectural"
+                    },
+                    "size": "md",
+                    "_css_classes": "fl-button fl-filter"
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                },
+                {
+                  "id": "1c7ba9b3",
+                  "elType": "widget",
+                  "settings": {
+                    "text": "Fabrication",
+                    "link": {
+                      "url": "http://127.0.0.1:9400/projects/#fabrication"
+                    },
+                    "size": "md",
+                    "_css_classes": "fl-button fl-filter"
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "1ee36392",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row fl-three-grid fl-project-grid"
+              },
+              "elements": [
+                {
+                  "id": "0015e03f",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-project-card fl-reveal fl-category-structural"
+                  },
+                  "elements": [
+                    {
+                      "id": "065bbd39",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "http://127.0.0.1:9400/wp-content/uploads/2026/10/structure.jpg",
+                          "id": 10,
+                          "alt": "The Foundry Works"
+                        },
+                        "image_size": "full",
+                        "image_alt": "The Foundry Works"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    },
+                    {
+                      "id": "5241b93c",
+                      "elType": "container",
+                      "settings": {
+                        "container_type": "flex",
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "css_classes": "fl-project-caption"
+                      },
+                      "elements": [
+                        {
+                          "id": "0084b7bb",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "STRUCTURAL / CONCEPT 01",
+                            "header_size": "div",
+                            "_css_classes": "fl-kicker"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "4eea3947",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "The Foundry Works",
+                            "header_size": "h3"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "dba31198",
+                          "elType": "widget",
+                          "settings": {
+                            "editor": "<p>An open-span workshop concept built around a clear structural grid.</p>"
+                          },
+                          "elements": [],
+                          "widgetType": "text-editor"
+                        },
+                        {
+                          "id": "b5f239ac",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "View project ↗",
+                            "link": {
+                              "url": "http://127.0.0.1:9400/projects/foundry-works/"
+                            },
+                            "size": "md",
+                            "_css_classes": "fl-button fl-text-button"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        }
+                      ],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "f8b554d6",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-project-card fl-reveal fl-category-architectural"
+                  },
+                  "elements": [
+                    {
+                      "id": "4fcb0575",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "http://127.0.0.1:9400/wp-content/uploads/2026/10/framework.jpg",
+                          "id": 11,
+                          "alt": "Lines of Connection"
+                        },
+                        "image_size": "full",
+                        "image_alt": "Lines of Connection"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    },
+                    {
+                      "id": "2744be81",
+                      "elType": "container",
+                      "settings": {
+                        "container_type": "flex",
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "css_classes": "fl-project-caption"
+                      },
+                      "elements": [
+                        {
+                          "id": "917d93c5",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "ARCHITECTURAL / CONCEPT 02",
+                            "header_size": "div",
+                            "_css_classes": "fl-kicker"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "1f607b74",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "Lines of Connection",
+                            "header_size": "h3"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "853b4dba",
+                          "elType": "widget",
+                          "settings": {
+                            "editor": "<p>A stair and balustrade concept balancing strength, rhythm, and detail.</p>"
+                          },
+                          "elements": [],
+                          "widgetType": "text-editor"
+                        },
+                        {
+                          "id": "ab7e7c97",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "View project ↗",
+                            "link": {
+                              "url": "http://127.0.0.1:9400/projects/lines-of-connection/"
+                            },
+                            "size": "md",
+                            "_css_classes": "fl-button fl-text-button"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        }
+                      ],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "e60d4f98",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-project-card fl-reveal fl-category-fabrication"
+                  },
+                  "elements": [
+                    {
+                      "id": "a6b1dd5b",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "http://127.0.0.1:9400/wp-content/uploads/2026/10/fabrication.jpg",
+                          "id": 8,
+                          "alt": "The Working Frame"
+                        },
+                        "image_size": "full",
+                        "image_alt": "The Working Frame"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    },
+                    {
+                      "id": "497d7a12",
+                      "elType": "container",
+                      "settings": {
+                        "container_type": "flex",
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "css_classes": "fl-project-caption"
+                      },
+                      "elements": [
+                        {
+                          "id": "32d494e4",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "FABRICATION / CONCEPT 03",
+                            "header_size": "div",
+                            "_css_classes": "fl-kicker"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "7e838830",
+                          "elType": "widget",
+                          "settings": {
+                            "title": "The Working Frame",
+                            "header_size": "h3"
+                          },
+                          "elements": [],
+                          "widgetType": "heading"
+                        },
+                        {
+                          "id": "f049868f",
+                          "elType": "widget",
+                          "settings": {
+                            "editor": "<p>A modular equipment-frame concept designed for repeatable assembly.</p>"
+                          },
+                          "elements": [],
+                          "widgetType": "text-editor"
+                        },
+                        {
+                          "id": "aafead57",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "View project ↗",
+                            "link": {
+                              "url": "http://127.0.0.1:9400/projects/working-frame/"
+                            },
+                            "size": "md",
+                            "_css_classes": "fl-button fl-text-button"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        }
+                      ],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "c95a06a4",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>All studies are fictional. Photography is illustrative and does not depict completed ForgeLine commissions.</p>",
+                "_css_classes": "fl-caption"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "85c82b49",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section fl-cta"
+      },
+      "elements": [
+        {
+          "id": "6eb848fb",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "3996a52c",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row "
+              },
+              "elements": [
+                {
+                  "id": "eb8bfcc0",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col "
+                  },
+                  "elements": [
+                    {
+                      "id": "fdf5a51a",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "LET’S BUILD WHAT’S NEXT",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "f5da8929",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "A strong project starts<br>with a conversation.",
+                        "header_size": "h2"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "0b79bd56",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-cta-action"
+                  },
+                  "elements": [
+                    {
+                      "id": "30aa1bc3",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Tell us what you need to make. We’ll help shape the next step.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "10e967f5",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Start your project ↗",
+                        "link": {
+                          "url": "http://127.0.0.1:9400/contact/"
+                        },
+                        "size": "md",
+                        "_css_classes": "fl-button "
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

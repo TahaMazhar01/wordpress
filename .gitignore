@@ -1,0 +1,30 @@
+# Local development dependencies and saved WordPress state
+**/node_modules/
+forgeline/wordpress/
+forgeline/restore-test/
+forgeline/runtime/
+forgeline/vendor/
+
+# Full snapshots and handover archives include local account/database state.
+forgeline/dist/forgeline-steel-site.zip
+forgeline/dist/forgeline-steel-handover.zip
+**/*.sqlite
+**/*.sqlite-*
+**/.ht.sqlite*
+**/wp-config.php
+**/LOCAL-ACCESS.txt
+**/debug.log
+.env
+.env.*
+
+# Duplicate original package and unused optional slider plugin
+/hubsteel-101/
+/Hubsteel_FullPackage/
+forgeline/original-package/
+forgeline/theme/assets/*.woff2
+forgeline/dist/forgeline-steel-child.zip
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.log

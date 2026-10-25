@@ -1,0 +1,93 @@
+{
+  "version": "0.4",
+  "title": "ForgeLine / Reusable Service Card",
+  "type": "section",
+  "content": [
+    {
+      "id": "7e1ec3ed",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-col fl-service-card fl-reveal"
+      },
+      "elements": [
+        {
+          "id": "2927050c",
+          "elType": "widget",
+          "settings": {
+            "image": {
+              "url": "http://127.0.0.1:9400/wp-content/uploads/2026/10/structure.jpg",
+              "id": 10,
+              "alt": "Structural fabrication"
+            },
+            "image_size": "full",
+            "image_alt": "Structural fabrication"
+          },
+          "elements": [],
+          "widgetType": "image"
+        },
+        {
+          "id": "138522aa",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-card-content"
+          },
+          "elements": [
+            {
+              "id": "512bebb7",
+              "elType": "widget",
+              "settings": {
+                "title": "CAPABILITY / 01",
+                "header_size": "div",
+                "_css_classes": "fl-kicker"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "93ce080c",
+              "elType": "widget",
+              "settings": {
+                "title": "Structural fabrication",
+                "header_size": "h3"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "30bee8d3",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Beams, columns, frames, and connections made around your project requirements.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "1662d87e",
+              "elType": "widget",
+              "settings": {
+                "text": "Explore service ↗",
+                "link": {
+                  "url": "http://127.0.0.1:9400/services/structural-fabrication/"
+                },
+                "size": "md",
+                "_css_classes": "fl-button fl-text-button"
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": []
+}

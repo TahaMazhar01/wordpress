@@ -1,0 +1,451 @@
+{
+  "version": "0.4",
+  "title": "The Working Frame",
+  "type": "page",
+  "content": [
+    {
+      "id": "5473588d",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section fl-page-hero"
+      },
+      "elements": [
+        {
+          "id": "f09df2b8",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "7db685f4",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><a href=\"http://127.0.0.1:9400/\">Home</a> <span aria-hidden=\"true\">/</span> FABRICATION / CONCEPT 03</p>",
+                "_css_classes": "fl-breadcrumb"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "f8af95bf",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row "
+              },
+              "elements": [
+                {
+                  "id": "1e17568e",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-page-intro"
+                  },
+                  "elements": [
+                    {
+                      "id": "210f7bfb",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "FABRICATION / CONCEPT 03",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "2c2d4886",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "The Working Frame",
+                        "header_size": "h1"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "07745101",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>A modular equipment-frame concept designed for repeatable assembly.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "67aa8047",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-page-stamp"
+                  },
+                  "elements": [
+                    {
+                      "id": "66fa04d9",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>BUILT WITH INTENT.</p>",
+                        "_css_classes": "fl-stamp"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "a1e216e9",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section "
+      },
+      "elements": [
+        {
+          "id": "25ac2372",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "6580e800",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>FICTIONAL CONCEPT STUDY · STOCK PHOTOGRAPHY FOR ILLUSTRATION</p>",
+                "_css_classes": "fl-project-notice"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "15fb255b",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "http://127.0.0.1:9400/wp-content/uploads/2026/10/fabrication.jpg",
+                  "id": 8,
+                  "alt": "The Working Frame"
+                },
+                "image_size": "full",
+                "image_alt": "The Working Frame",
+                "_css_classes": "fl-detail-cover"
+              },
+              "elements": [],
+              "widgetType": "image"
+            },
+            {
+              "id": "eb84078d",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row fl-split"
+              },
+              "elements": [
+                {
+                  "id": "6ce96282",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col "
+                  },
+                  "elements": [
+                    {
+                      "id": "d1aaee54",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "PROJECT TYPE",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "34a00a5d",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Equipment frame / fabrication concept",
+                        "header_size": "h3"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "c2db3d57",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "STATUS",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "5e2e3e55",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Coursework concept · not a built commission</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "1c064013",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Discuss a similar idea ↗",
+                        "link": {
+                          "url": "http://127.0.0.1:9400/contact/"
+                        },
+                        "size": "md",
+                        "_css_classes": "fl-button "
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "6592d798",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col "
+                  },
+                  "elements": [
+                    {
+                      "id": "ef016a85",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "The brief",
+                        "header_size": "h2"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "16f1c825",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Develop a repeatable support-frame idea for equipment within a working industrial environment.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "7652c4bf",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "The proposed response",
+                        "header_size": "h2"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "48d57591",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>A modular assembly concept that brings fabrication, welded connections, and mounting points into one coordinated frame. The study considers access for assembly and the relationship between standard and bespoke parts.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "6d715c31",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "What this study explores",
+                        "header_size": "h2"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "badc412b",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Fit-up, assembly sequence, modular thinking, access, and dimensional review.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "16bc6a08",
+              "elType": "widget",
+              "settings": {
+                "text": "← All project studies",
+                "link": {
+                  "url": "http://127.0.0.1:9400/projects/"
+                },
+                "size": "md",
+                "_css_classes": "fl-button fl-text-button"
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "7436d016",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-section fl-cta"
+      },
+      "elements": [
+        {
+          "id": "dd67c914",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-wrap "
+          },
+          "elements": [
+            {
+              "id": "2f7d979f",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "css_classes": "fl-row "
+              },
+              "elements": [
+                {
+                  "id": "2eb10713",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col "
+                  },
+                  "elements": [
+                    {
+                      "id": "17026af5",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "LET’S BUILD WHAT’S NEXT",
+                        "header_size": "div",
+                        "_css_classes": "fl-kicker"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "83bfcec9",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "A strong project starts<br>with a conversation.",
+                        "header_size": "h2"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "6811b615",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "css_classes": "fl-col fl-cta-action"
+                  },
+                  "elements": [
+                    {
+                      "id": "bbe5d048",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Tell us what you need to make. We’ll help shape the next step.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "6fa98e91",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Start your project ↗",
+                        "link": {
+                          "url": "http://127.0.0.1:9400/contact/"
+                        },
+                        "size": "md",
+                        "_css_classes": "fl-button "
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}

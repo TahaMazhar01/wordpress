@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "destination": "D:\\per\\wordpress\\hubsteel-101\\forgeline\\restore-test\\1792963507286",
+  "checks": [
+    {
+      "route": "/",
+      "status": 200,
+      "h1": 1,
+      "oldUrls": false,
+      "warnings": false
+    },
+    {
+      "route": "/about/",
+      "status": 200,
+      "h1": 1,
+      "oldUrls": false,
+      "warnings": false
+    },
+    {
+      "route": "/services/",
+      "status": 200,
+      "h1": 1,
+      "oldUrls": false,
+      "warnings": false
+    },
+    {
+      "route": "/projects/",
+      "status": 200,
+      "h1": 1,
+      "oldUrls": false,
+      "warnings": false
+    },
+    {
+      "route": "/contact/",
+      "status": 200,
+      "h1": 1,
+      "oldUrls": false,
+      "warnings": false
+    },
+    {
+      "route": "/privacy/",
+      "status": 200,
+      "h1": 1,
+      "oldUrls": false,
+      "warnings": false
+    },
+    {
+      "route": "/services/structural-fabrication/",
+      "status": 200,
+      "h1": 1,
+      "oldUrls": false,
+      "warnings": false
+    },
+    {
+      "route": "/projects/foundry-works/",
+      "status": 200,
+      "h1": 1,
+      "oldUrls": false,
+      "warnings": false
+    },
+    {
+      "templateImport": {
+        "imported": true,
+        "roots": 1
+      }
+    }
+  ],
+  "documents": {
+    "home": {
+      "builder": "builder",
+      "elements": 7
+    },
+    "about": {
+      "builder": "builder",
+      "elements": 5
+    },
+    "services": {
+      "builder": "builder",
+      "elements": 4
+    },
+    "projects": {
+      "builder": "builder",
+      "elements": 3
+    },
+    "contact": {
+      "builder": "builder",
+      "elements": 3
+    },
+    "structural-fabrication": {
+      "builder": "builder",
+      "elements": 4
+    },
+    "welding-assembly": {
+      "builder": "builder",
+      "elements": 4
+    },
+    "custom-metalwork": {
+      "builder": "builder",
+      "elements": 4
+    },
+    "site-installation": {
+      "builder": "builder",
+      "elements": 4
+    },
+    "foundry-works": {
+      "builder": "builder",
+      "elements": 3
+    },
+    "lines-of-connection": {
+      "builder": "builder",
+      "elements": 3
+    },
+    "working-frame": {
+      "builder": "builder",
+      "elements": 3
+    },
+    "privacy": {
+      "builder": "builder",
+      "elements": 2
+    },
+    "template-header": {
+      "builder": "builder",
+      "elements": 1
+    },
+    "template-footer": {
+      "builder": "builder",
+      "elements": 1
+    },
+    "template-service-card": {
+      "builder": "builder",
+      "elements": 1
+    },
+    "template-project-card": {
+      "builder": "builder",
+      "elements": 1
+    },
+    "template-project-cta": {
+      "builder": "builder",
+      "elements": 1
+    }
+  }
+}

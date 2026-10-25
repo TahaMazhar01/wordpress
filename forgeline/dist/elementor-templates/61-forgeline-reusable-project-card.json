@@ -1,0 +1,93 @@
+{
+  "version": "0.4",
+  "title": "ForgeLine / Reusable Project Card",
+  "type": "section",
+  "content": [
+    {
+      "id": "52231e9e",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "full",
+        "flex_direction": "column",
+        "css_classes": "fl-col fl-project-card fl-reveal fl-category-structural"
+      },
+      "elements": [
+        {
+          "id": "0882800f",
+          "elType": "widget",
+          "settings": {
+            "image": {
+              "url": "http://127.0.0.1:9400/wp-content/uploads/2026/10/structure.jpg",
+              "id": 10,
+              "alt": "The Foundry Works"
+            },
+            "image_size": "full",
+            "image_alt": "The Foundry Works"
+          },
+          "elements": [],
+          "widgetType": "image"
+        },
+        {
+          "id": "d9eb2260",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "css_classes": "fl-project-caption"
+          },
+          "elements": [
+            {
+              "id": "83c91535",
+              "elType": "widget",
+              "settings": {
+                "title": "STRUCTURAL / CONCEPT 01",
+                "header_size": "div",
+                "_css_classes": "fl-kicker"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "2a46a88e",
+              "elType": "widget",
+              "settings": {
+                "title": "The Foundry Works",
+                "header_size": "h3"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "0ccce197",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>An open-span workshop concept built around a clear structural grid.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "f792f4ca",
+              "elType": "widget",
+              "settings": {
+                "text": "View project ↗",
+                "link": {
+                  "url": "http://127.0.0.1:9400/projects/foundry-works/"
+                },
+                "size": "md",
+                "_css_classes": "fl-button fl-text-button"
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": []
+}
