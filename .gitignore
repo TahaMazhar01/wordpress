@@ -3,6 +3,9 @@
 forgeline/wordpress/
 forgeline/restore-test/
 forgeline/runtime/
+forgeline/mysql-wordpress/
+forgeline/dist/mysql/
+forgeline/dist/forgeline-mysql-handover.zip
 forgeline/vendor/
 
 # Full snapshots and handover archives include local account/database state.

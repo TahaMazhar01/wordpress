@@ -11,7 +11,9 @@ npm ci
 npm start
 ```
 
-Visit **http://127.0.0.1:9400/**. Dashboard credentials are in `runtime/LOCAL-ACCESS.txt`. The server is a local development tool; keep it bound to the local computer. The `wordpress/` directory persists edits and the SQLite database between restarts. Stop the server with Ctrl+C.
+Visit **http://127.0.0.1:9400/**. Dashboard credentials are in `runtime/LOCAL-ACCESS.txt`. The active site now uses **MySQL 8.4.13**, with site files in `mysql-wordpress/` and database state under `runtime/native/mysql-data/`. The existing PHP WebAssembly runtime connects through standard `mysqli`; SQLite integration is disabled. Stop the website with Ctrl+C. MySQL runs as a separate loopback-only process and resumes through `npm start` if stopped.
+
+For another computer or hosting, use **`dist/forgeline-mysql-handover.zip`** and [MYSQL-HANDOVER.md](docs/MYSQL-HANDOVER.md). Refresh it after edits with `npm run export:mysql`. SQL backups and live credentials stay private. The sections below describing SQLite snapshots and the earlier handover apply only to retained rollback artifacts.
 
 The first build uses official WordPress Playground and downloads WordPress core. Node.js 20.18+ is required. A prepared site snapshot is supplied in `dist/` after verification. The runtime and dependencies are development tools, not a production hosting stack.
 

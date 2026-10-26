@@ -1,0 +1,21 @@
+import {spawn} from 'node:child_process';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import path from 'node:path';
+import {root} from './local-runtime.mjs';
+import {directoryEntries,zipFiles} from './zip-fast.mjs';
+await mkdir(path.join(root,'dist/mysql'),{recursive:true});
+const native=path.join(root,'runtime/native');
+const sql=await new Promise((resolve,reject)=>{
+ const child=spawn(path.join(native,'mysql-package/mysql-8.4.13-winx64/bin/mysqldump.exe'),['--defaults-extra-file='+path.join(native,'mysql-client.cnf'),'--single-transaction','--no-tablespaces','--set-gtid-purged=OFF','--column-statistics=0','--default-character-set=utf8mb4','forgeline_steel'],{windowsHide:true});
+ const data=[];let error='';child.stdout.on('data',d=>data.push(d));child.stderr.on('data',d=>error+=d);child.on('error',reject);child.on('close',code=>code?reject(Error(error)):resolve(Buffer.concat(data)));
+});
+await writeFile(path.join(root,'dist/mysql/forgeline-steel.sql'),sql);
+const entries=await directoryEntries(path.join(root,'mysql-wordpress'),'ForgeLine-MySQL/wordpress',name=>['wp-config.php','debug.log','forgeline-content.xml','forgeline-export.json'].includes(name));
+for(const folder of ['theme','plugin','assets','docs','scripts'])entries.push(...await directoryEntries(path.join(root,folder),'ForgeLine-MySQL/'+folder));
+for(const folder of ['Licensing','Licenses'])entries.push(...await directoryEntries(path.join(root,'../Hubsteel_FullPackage',folder),'ForgeLine-MySQL/original-licenses/'+folder));
+entries.push(...await directoryEntries(path.join(root,'dist/mysql'),'ForgeLine-MySQL/database'));
+entries.push(...await directoryEntries(path.join(root,'dist/elementor-templates'),'ForgeLine-MySQL/elementor-templates'));
+entries.push({name:'ForgeLine-MySQL/START-HERE.md',file:path.join(root,'docs/MYSQL-HANDOVER.md')});
+entries.push({name:'ForgeLine-MySQL/LOCAL-WORDPRESS-LOGIN.txt',file:path.join(root,'runtime/LOCAL-ACCESS.txt')});
+await writeFile(path.join(root,'dist/forgeline-mysql-handover.zip'),await zipFiles(entries));
+console.log('Exported a real mysqldump SQL backup and MySQL WordPress handover ZIP. Live wp-config/database credentials are excluded.');

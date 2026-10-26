@@ -1,8 +1,10 @@
 # Installation and restoration
 
+**Current site: MySQL.** Use `dist/forgeline-mysql-handover.zip` and [MYSQL-HANDOVER.md](MYSQL-HANDOVER.md) for current installation/import steps. `npm start` resumes the configured MySQL site in `mysql-wordpress/`. The SQLite instructions below are retained for the earlier rollback package; use `npm run start:sqlite` explicitly for that preview.
+
 ## Local continuation
 
-The existing `wordpress/` folder is the saved working site, including uploads and SQLite data. Run `npm ci` and `npm start` from the project folder. Do not discard `wordpress/wp-content/database/`: this contains the site's saved content and Elementor edits.
+The existing `wordpress/` folder is the earlier saved SQLite site. Run `npm ci` and `npm run start:sqlite` from the project folder to open that rollback copy. The active MySQL site uses the separate `mysql-wordpress/` folder. Keep the rollback database until the current MySQL backup has been delivered and verified.
 
 ## Portable snapshot
 

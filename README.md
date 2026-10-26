@@ -4,6 +4,8 @@ A complete coursework business website built using the supplied **Hubsteel** par
 
 ## Run locally
 
+The active site was migrated to **MySQL 8.4.13**. Start the configured current computer with `cd forgeline` and `npm start`. New computers/hosting should restore the private `forgeline/dist/forgeline-mysql-handover.zip` using [the MySQL guide](forgeline/docs/MYSQL-HANDOVER.md). Database credentials and SQL backups are intentionally excluded from this public source repository. The bootstrap instructions below describe the original SQLite preview; use `npm run start:sqlite` for that separate legacy preview.
+
 Requirements: Node.js 20.18+ and an internet connection for the initial dependency/WordPress downloads.
 
 Place your separately licensed Hubsteel package in `Hubsteel_FullPackage/` beside this README before building. The expected files are `Theme Install/hubsteel.zip` and `Plugins/case-addons.zip`. Purchased third-party packages are kept local and are not distributed in this repository.
@@ -14,7 +16,7 @@ The supplied font license also restricts redistribution. Font binaries and the g
 cd forgeline
 npm ci
 npm run build
-npm start
+npm run start:sqlite
 ```
 
 Open **http://127.0.0.1:9400/**. WordPress Playground provides PHP and SQLite, so a separate PHP, MySQL, or Docker installation is not required. The first run downloads official Elementor/Redux plugin packages and WordPress core, creates all content, and generates a local administrator password. Dashboard credentials are written to the ignored `forgeline/runtime/LOCAL-ACCESS.txt` file.

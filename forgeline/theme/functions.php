@@ -14,8 +14,8 @@ add_filter('case/setting/options', function($options) {
     return wp_parse_args(is_array($options)?$options:[], ['gradient_color'=>['from'=>'#f17432','to'=>'#f17432'],'pxl_body_typography'=>'satoshi','pxl_heading_typography'=>'clashgrotesk','smooth_scroll'=>'off']);
 });
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('forgeline', get_stylesheet_directory_uri() . '/assets/forgeline.css', ['pxl-style'], '1.0.0');
-    wp_enqueue_script('forgeline', get_stylesheet_directory_uri() . '/assets/forgeline.js', [], '1.0.0', true);
+    wp_enqueue_style('forgeline', get_stylesheet_directory_uri() . '/assets/forgeline.css', ['pxl-style'], (string)filemtime(get_stylesheet_directory().'/assets/forgeline.css'));
+    wp_enqueue_script('forgeline', get_stylesheet_directory_uri() . '/assets/forgeline.js', [], (string)filemtime(get_stylesheet_directory().'/assets/forgeline.js'), true);
     // These parent-theme effects are not used by the ForgeLine layouts.
     foreach (['chart','slick-lib','wow-animate','stellar-parallax','nice-select','modernizr','pxl-parallax-background','pxl-parallax-scroll','pxl-splitText','pxl-woocommerce','pxl-gsap-min','pxl-main'] as $handle) wp_dequeue_script($handle);
 }, 100);

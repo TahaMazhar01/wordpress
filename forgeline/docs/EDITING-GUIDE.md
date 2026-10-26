@@ -26,6 +26,12 @@ In Elementor, open **Site Settings → Global Colors**. Primary is ink, Secondar
 
 Local Satoshi and Clash Grotesk font files are bundled from the supplied parent package. Font rules and responsive design defaults are in `theme/assets/forgeline.css`. Individual Elementor typography controls can be used for local changes; use the child stylesheet for coordinated structural changes. Motion and interaction source is `theme/assets/forgeline.js`. Reduced-motion preferences disable decorative motion.
 
+### Motion and surface effects
+
+The child theme adds a slow hero-image zoom, desktop scroll parallax, sparse forge sparks, staggered section reveals, card lift/image zoom, pointer lighting, button sheen, a sticky header, and a reading-progress line. Gradients and engineering-line textures add depth to page headers, process sections, and calls to action. No animation library is required.
+
+Visitors can use **Pause motion** to stop decorative animation; their choice persists in that browser. System reduced-motion settings also disable animation. The Elementor editor skips the motion script so widgets remain straightforward to select and edit. Native text, images, buttons, cards, and templates remain editable in Elementor. Keep `fl-hero`, `fl-service-card`, `fl-project-card`, and `fl-reveal` on their corresponding containers to retain the effects. Fine-tune effect colors, shadows, timings, and keyframes in the final industrial-depth section of the child stylesheet; edit the observer/parallax behavior in the JavaScript source. Copy source changes to the installed child theme before refreshing exports.
+
 ## Services and projects
 
 Service pages sit beneath **Services & Products** and project pages beneath **Projects** in the WordPress page hierarchy. Duplicate a detail page or insert the supplied reusable card/CTA templates to extend the site. Edit each card's image, text, and link separately.
@@ -43,6 +49,8 @@ Successful form submissions appear in **Project enquiries**. The recipient setti
 Only administrators should have access to the stored enquiries. Delete test submissions when finished. For a public site, decide and document a retention period, arrange data-access/deletion handling, and replace the demonstration privacy notice with the real business details.
 
 ## Export after edits
+
+The active site now uses MySQL. Run `npm run export:mysql` and deliver `dist/forgeline-mysql-handover.zip`; see `MYSQL-HANDOVER.md`. The older export command below applies to the retained SQLite rollback copy.
 
 Use **Templates → Saved Templates → Export Template** to download individual Elementor JSON files. Site kit export availability depends on the Elementor plan/version. Keep the WordPress backup as well: JSON alone does not include the full database, media, child theme, menu settings, or custom form code.
 

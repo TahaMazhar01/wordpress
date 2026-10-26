@@ -5,8 +5,10 @@ The complete editable WordPress project is in [`forgeline/`](forgeline/README.md
 - **Local website:** http://127.0.0.1:9400/
 - **Dashboard:** http://127.0.0.1:9400/wp-admin/
 - **Local login:** `forgeline/runtime/LOCAL-ACCESS.txt`
-- **Complete handover:** `forgeline/dist/forgeline-steel-handover.zip`
-- **Restorable WordPress snapshot:** `forgeline/dist/forgeline-steel-site.zip`
+- **Current MySQL handover:** `forgeline/dist/forgeline-mysql-handover.zip`
+- **MySQL installation/import guide:** `forgeline/docs/MYSQL-HANDOVER.md`
+- **MySQL SQL export:** `forgeline/dist/mysql/forgeline-steel.sql` (private)
+- **Earlier SQLite rollback snapshot:** `forgeline/dist/forgeline-steel-site.zip`
 - **Editing guide:** `forgeline/docs/EDITING-GUIDE.md`
 - **Validation:** `forgeline/docs/VALIDATION.md`
 

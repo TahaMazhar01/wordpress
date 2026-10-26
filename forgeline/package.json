@@ -5,7 +5,9 @@
   "description": "Editable Hubsteel WordPress assignment and portable handover",
   "type": "module",
   "scripts": {
-    "start": "node scripts/serve.mjs",
+    "start": "node scripts/serve-mysql.mjs",
+    "start:sqlite": "node scripts/serve-sqlite.mjs",
+    "export:mysql": "node scripts/export-mysql.mjs",
     "build": "node scripts/build.mjs",
     "verify": "node scripts/verify.mjs"
   },

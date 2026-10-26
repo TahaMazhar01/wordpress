@@ -1,5 +1,9 @@
 # ForgeLine Steel validation
 
+## Current MySQL migration
+
+On 26 October 2026 the active site migrated to native MySQL Community Server 8.4.13 on loopback port 9336. WordPress confirmed standard `wpdb` / `mysqli`, no SQLite drop-in, 13 pages, and five private enquiries. Every value across 13 source tables matched using SHA-256 row comparisons before first boot. The migrated site passed all 13 route, 57 asset, and four enquiry-form checks. Current reports and the SQL export are under `dist/mysql/`; current handover is `dist/forgeline-mysql-handover.zip`. The earlier SQLite snapshot and its restoration report remain rollback artifacts.
+
 Validated locally on 26 October 2026. The site uses WordPress **7.1.3**, PHP **8.3.33**, Elementor **4.3.5**, the supplied Hubsteel **1.0.1** parent, and ForgeLine child theme **1.0.0**. Exact machine-readable versions are in `dist/versions.json`.
 
 ## Automated checks
@@ -8,7 +12,7 @@ Validated locally on 26 October 2026. The site uses WordPress **7.1.3**, PHP **8
 - All **57 unique referenced image, CSS, and JavaScript assets** returned HTTP 200.
 - Internal content links passed. A nonexistent page returned a genuine HTTP 404 and the custom ForgeLine error page.
 - The enquiry endpoint rejected an invalid nonce and invalid fields, saved a valid local sample, and rate-limited an immediate repeat.
-- The saved sample was verified in the WordPress database, then removed. No test enquiry remains in the handover snapshot.
+- The automated validation sample was verified in the WordPress database, then removed. The five separately requested, clearly labelled dummy enquiries remain in the dashboard and refreshed handover snapshot.
 - Enquiries are non-public and dashboard access requires `manage_options`.
 - All 13 pages and five shared/reusable templates contain saved Elementor builder data.
 
@@ -22,7 +26,8 @@ Full results are in `dist/verification.json`. Checks cover functionality and str
 - Verified mobile menu expansion and Escape-to-close behavior.
 - Checked representative layouts at **390 px**, **768 px**, and **1440 px** viewport widths. No horizontal document overflow was observed in the checked contact, services, and projects views.
 - Inspected the mobile form: labels and controls fit within the viewport.
-- Decorative motion uses CSS transitions with a reduced-motion rule and a JavaScript media-query guard. Core content remains visible without JavaScript.
+- Decorative motion uses CSS keyframes/transitions with a reduced-motion rule and a JavaScript media-query guard. Core content remains visible without JavaScript. The visitor's Pause motion control stops the hero and particles and reveals any pending content.
+- Inspected the refreshed design at 1440 px and 390 px: no horizontal overflow on Home or Contact. Confirmed hero/spark animation names, scroll-reveal activation, sticky header state, mobile navigation, and Pause/Play state changes in the real browser. No browser console errors were reported during this inspection. The system reduced-motion fallback was reviewed in source; an OS preference change was not emulated.
 
 Screenshots in `dist/screenshots/` include the desktop home, capability section, mobile form, and Elementor editing controls.
 

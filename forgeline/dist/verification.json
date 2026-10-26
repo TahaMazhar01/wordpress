@@ -6,7 +6,7 @@
       "h1": 1,
       "description": true,
       "phpWarnings": false,
-      "milliseconds": 3251
+      "milliseconds": 3732
     },
     {
       "path": "/about/",
@@ -14,7 +14,7 @@
       "h1": 1,
       "description": true,
       "phpWarnings": false,
-      "milliseconds": 3178
+      "milliseconds": 1856
     },
     {
       "path": "/services/",
@@ -22,7 +22,7 @@
       "h1": 1,
       "description": true,
       "phpWarnings": false,
-      "milliseconds": 3414
+      "milliseconds": 1722
     },
     {
       "path": "/projects/",
@@ -30,7 +30,7 @@
       "h1": 1,
       "description": true,
       "phpWarnings": false,
-      "milliseconds": 3141
+      "milliseconds": 1767
     },
     {
       "path": "/contact/",
@@ -38,7 +38,7 @@
       "h1": 1,
       "description": true,
       "phpWarnings": false,
-      "milliseconds": 3188
+      "milliseconds": 1702
     },
     {
       "path": "/privacy/",
@@ -46,7 +46,7 @@
       "h1": 1,
       "description": true,
       "phpWarnings": false,
-      "milliseconds": 3161
+      "milliseconds": 1678
     },
     {
       "path": "/services/structural-fabrication/",
@@ -54,7 +54,7 @@
       "h1": 1,
       "description": true,
       "phpWarnings": false,
-      "milliseconds": 3330
+      "milliseconds": 1704
     },
     {
       "path": "/services/welding-assembly/",
@@ -62,7 +62,7 @@
       "h1": 1,
       "description": true,
       "phpWarnings": false,
-      "milliseconds": 3530
+      "milliseconds": 1662
     },
     {
       "path": "/services/custom-metalwork/",
@@ -70,7 +70,7 @@
       "h1": 1,
       "description": true,
       "phpWarnings": false,
-      "milliseconds": 3357
+      "milliseconds": 1679
     },
     {
       "path": "/services/site-installation/",
@@ -78,7 +78,7 @@
       "h1": 1,
       "description": true,
       "phpWarnings": false,
-      "milliseconds": 3475
+      "milliseconds": 1673
     },
     {
       "path": "/projects/foundry-works/",
@@ -86,7 +86,7 @@
       "h1": 1,
       "description": true,
       "phpWarnings": false,
-      "milliseconds": 3272
+      "milliseconds": 1648
     },
     {
       "path": "/projects/lines-of-connection/",
@@ -94,7 +94,7 @@
       "h1": 1,
       "description": true,
       "phpWarnings": false,
-      "milliseconds": 3358
+      "milliseconds": 1798
     },
     {
       "path": "/projects/working-frame/",
@@ -102,7 +102,7 @@
       "h1": 1,
       "description": true,
       "phpWarnings": false,
-      "milliseconds": 3489
+      "milliseconds": 1646
     }
   ],
   "assets": [
@@ -204,7 +204,7 @@
     {
       "path": "/wp-content/themes/forgeline-steel/assets/forgeline.css",
       "status": 200,
-      "bytes": 22967
+      "bytes": 33391
     },
     {
       "path": "/wp-includes/js/jquery/jquery.min.js",
@@ -324,7 +324,7 @@
     {
       "path": "/wp-content/themes/forgeline-steel/assets/forgeline.js",
       "status": 200,
-      "bytes": 2534
+      "bytes": 6387
     },
     {
       "path": "/wp-content/uploads/elementor/css/post-19.css",
